@@ -24,6 +24,3 @@ To add the section to the outline, add `\section{Your Section Name}` to the `tem
 ## Compil LaTex
 
 An easy way to edit and compile LaTeX in a code editor is to use 'TexMaker' which is available on Linux, MacOs, and Windows.
-
-<object data="template.pdf" type="application/pdf" width="100%"> 
-</object>
