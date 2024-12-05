@@ -35,13 +35,9 @@
 \useoutertheme{miniframes} % Alternatively: miniframes, infolines, split
 
 \definecolor{myred}{RGB}{203,1, 0}
-
 \definecolor{itemred}{RGB}{163,0, 0}
-
 \definecolor{mygray1}{RGB}{236,   236,  236}
-
 \definecolor{mygray2}{RGB}{236,   236,  236}
-
 \setbeamercolor{structure}{fg=itemred} % itemize, enumerate, etc
 
 % alertblock
@@ -55,9 +51,7 @@
   \oldmacro\hfill%
   \insertframenumber\,/\,\inserttotalframenumber}
 
-\logo{
-    \includegraphics[width=6cm,  keepaspectratio, trim=0cm 12.3cm 26cm 0cm]{logo_chu_uni.png}
-}
+\logo{ \includegraphics[width=6cm,  keepaspectratio, trim=0cm 12.3cm 26cm 0cm]{logos/logo_chu_uni.png} }
 
 
 \title[Title of the seminar/congress]{Title of your presentation}
@@ -77,13 +71,15 @@
 \begin{document}
 
 \frame{
+
 \thispagestyle{empty}
+
 \titlepage
 
 \begin{figure}
 \hspace*{-0.5cm} 
-	\centering
-\includegraphics[width=13cm,  keepaspectratio,  trim=0cm 0cm 2cm 0cm, clip]{all-logos.png}
+\centering
+\includegraphics[width=13cm,  keepaspectratio,  trim=0cm 0cm 2cm 0cm,  clip]{logos/all-logos.png}
 \end{figure}
 } 
 
@@ -91,6 +87,7 @@
 \section{The best sentences}
 
 \frame{
+
   \frametitle{Star wars or not?}
   
 \begin{itemize}
@@ -108,13 +105,13 @@
 \end{itemize}
 
 \end{itemize}
-
 }
 
 
 \section{More seriously with math and graphs}
 
 \frame{
+
   \frametitle{The conditions for augmenting Radomized CLinical Trials (RCT) with an external control group \footnote{Dang et al.  A Cross-Validated Targeted Maximum Likelihood Estimator for Data-Adaptive Experiment Selection Applied to the Augmentation of RCT Control Arms with External Data.  arXiv:2210.05802v1}}
   
 \begin{itemize}
@@ -126,11 +123,11 @@
     \item[C3.] The absence of a direct effect on the outcome of being included in the RCT.
     
 \end{itemize}
-
 }
 
 
 \frame{
+
   \frametitle{How to respect the condition C1 (positivity)?}
   
 \begin{enumerate}
@@ -165,8 +162,7 @@
 }
 
 
-{ \logo{}
-\frame{
+{ \logo{} \frame{
 
   \frametitle{How to respect the condition C3 (no direct effect of being in the RCT)?}
   
@@ -199,13 +195,10 @@
 \end{itemize}
     
 \end{alertblock}
-
-}
-}
+} }
 
 
-{ \logo{}
-\frame{
+{ \logo{} \frame{
 
 \frametitle{Consider the following usual RCT for superiority with k controls for 1 patient in the experimental arm}
   
@@ -230,12 +223,12 @@
 \end{itemize}
     
 \end{alertblock}
-}    
-}
+}   }
     
 
     
 \frame{
+
   \frametitle{Consider the following method to augment the RCT with external data (one method among others)}
   
 \begin{itemize}
@@ -247,7 +240,9 @@
    \item A calibration measure can be $O/E$:
    
 \begin{itemize}
+
     \item $O$ is the number of observed events : $ \sum_i Y_i$ among the control patients.
+    
     \item $E$ is the number of expected events: $ \sum_i \hat{\pi}_{0i}$ among the control patients.
     
 \end{itemize}
@@ -258,8 +253,7 @@
 }    
     
     
-{ \logo{}
-\frame{
+{ \logo{} \frame{
 
   \frametitle{Minimal sample size $N_{0c}$ to evaluate the calibration of the model $M$}
   
@@ -278,12 +272,12 @@
 \begin{itemize}
 
    \item For $\alpha=0.05$ and  $w=0.10$ (i.e.,  $SE_w(\log(O/E) \approx 0.25$)  then $ N_{0c} = 1541$. 
-   
+
 \begin{itemize}
 
    \item   $ N_{0c}  > 385$:  we cannot check the respect of C3.
    
-   \end{itemize}
+\end{itemize}
    
       \item For $\alpha=0.05$ and  $w=0.20$ (i.e.,  $SE_w(\log(O/E) \approx 0.51$,)  then $ N_{0c} = 386 $. 
       
@@ -291,37 +285,36 @@
 
    \item    $ N_{0c}  \approx  385$:  we can check the respect of C3.
    
-   \end{itemize}
+\end{itemize}
    
 \end{itemize}
     
 \end{alertblock}
-} 
-}
+} }
     
-{ \logo{}
-\frame{
-  \frametitle{}
-\centering
-\includegraphics[width=12cm,  keepaspectratio]{ggp1.pdf}
-}
-}
+{ \logo{} \frame{
 
-{ \logo{}
-\frame{
   \frametitle{}
+  
 \centering
-\includegraphics[width=12cm,  keepaspectratio]{ggp2.pdf}
-}
-}
+\includegraphics[width=12cm,  keepaspectratio]{figures/ggp1.pdf}
+} }
 
-{ \logo{}
-\frame{
+{ \logo{} \frame{
+
   \frametitle{}
+  
 \centering
-\includegraphics[width=12cm,  keepaspectratio]{ggp3.pdf}
-}
-}
+\includegraphics[width=12cm,  keepaspectratio]{figures/ggp2.pdf}
+} }
+
+{ \logo{} \frame{
+
+  \frametitle{}
+  
+\centering
+\includegraphics[width=12cm,  keepaspectratio]{figures/ggp3.pdf}
+} }
 
 \end{document}
 
