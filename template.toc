@@ -1,3 +1,0 @@
-\babel@toc {french}{}
-\beamer@sectionintoc {1}{The best sentences}{2}{0}{1}
-\beamer@sectionintoc {2}{More seriously with math and graphs}{4}{0}{2}
