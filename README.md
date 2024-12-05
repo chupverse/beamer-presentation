@@ -1,4 +1,4 @@
-# Beamer LaTeX template
+## Beamer LaTeX template
 
 This respository contains a Beamer LaTeX template designed for presentations by members of both the University and University Hospital at Poitiers.
 
@@ -12,7 +12,6 @@ At the top of the [`template.tex`](template.tex) file, edit the information abou
 \date{DD MM YYYY}
 \author{Firstname Lastname}
 ```
-
 ## Add sections
 
 To add the section to the outline, add `\section{Your Section Name}` to the `template.tex` file.  You can also add subsections: `\section{Your Subsection Name}`.
@@ -25,3 +24,6 @@ To add the section to the outline, add `\section{Your Section Name}` to the `tem
 ## Compil LaTex
 
 An easy way to edit and compile LaTeX in a code editor is to use 'TexMaker' which is available on Linux, MacOs, and Windows.
+
+<object data="template.pdf" type="application/pdf" width="100%"> 
+</object>
