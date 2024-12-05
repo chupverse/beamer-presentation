@@ -2,7 +2,7 @@
 
 This respository contains a Beamer LaTeX template designed for presentations by members of both the University and University Hospital at Poitiers.
 
-## Title your presentation
+## Complete the title page
 
 At the top of the [`template.tex`](template.tex) file, edit the information about your presentation. Update the author, title, date, and author fields. 
 
@@ -22,6 +22,6 @@ To add the section to the outline, add `\section{Your Section Name}` to the `tem
 \subsection{Studied population}
 ```
 
-## Compiling LaTeX in Visual Studio Code
+## Compil LaTex
 
 An easy way to edit and compile LaTeX in a code editor is to use 'TexMaker' which is available on Linux, MacOs, and Windows.
